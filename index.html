@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İDEMA — Modular Furniture Manufacturer</title>
+<meta name="description" content="İDEMA is a modular furniture manufacturing partner based in Samsun, Türkiye — 14 years of experience, 900+ completed projects, 150,000+ units delivered worldwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+
+<!-- ============ HEADER ============ -->
+ 
+<header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+        <a href="#top" class="logo">
+            <picture>
+              <source srcset="images/idema-logo.avif" type="image/avif">
+              <img src="images/idema-logo.png" alt="İDEMA" class="logo-img">
+            </picture>
+          </a>
+  
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" data-i18n="home">HOME</a>
+        <a href="#about" data-i18n="about">ABOUT US</a>
+        <a href="#factory" data-i18n="factory">FACTORY</a>
+        <a href="#why" data-i18n="why">WHY İDEMA?</a>
+        <a href="#products" data-i18n="products">PRODUCT SHOWCASE</a>
+      </nav>
+  
+      <div class="header-actions">
+        <a href="#contact" class="btn-contact" data-i18n="contact">CONTACT US</a>
+        <div class="lang-switch" id="langSwitch" role="group" aria-label="Language switch">
+          <button type="button" class="lang-btn" data-lang="tr">TR</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
+        </div>
+      
+  
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO / HOME ============ -->
+
+<section class="hero" id="home">
+    <div class="hero-bg" id="heroBg">
+      <div class="hero-bg-slide is-active" style="background-image:url('images/hero-1.jpg')"></div>
+      <div class="hero-bg-slide" style="background-image:url('images/hero-2.jpg')"></div>
+      <div class="hero-bg-slide" style="background-image:url('images/hero-3.jpg')"></div>
+      <div class="hero-overlay"></div>
+    </div>
+  
+    <div class="wrap hero-content reveal">
+      <p class="eyebrow" data-i18n="heroEyebrow">Manufacturing Partner</p>
+      <h1 class="hero-word">İDEMA</h1>
+      <p class="hero-tagline" data-i18n="heroTagline">Your modular furniture manufacturing partner</p>
+      <p class="hero-stats-line" data-i18n="heroStats">14 years · 900+ projects · 150,000+ units delivered</p>
+    </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+
+<section class="about" id="about">
+  <div class="wrap about-inner">
+
+    <div class="about-text about-hover-card">
+
+      <h2 class="about-heading" data-i18n="aboutHeading">Manufacturing is a long-term partnership, not a transaction</h2>
+      <p class="about-p" data-i18n="aboutP1">İDEMA has spent 14 years serving international markets through scalable, reliable production — supporting wholesalers, distributors, e-commerce brands, retailers and project-based businesses with manufacturing structures that adapt to their models and technical requirements.</p>
+      <p class="about-p" data-i18n="aboutP2">Every stage runs in-house, managed by our engineering team and 100+ production professionals from our Phase 1 facility — built on structured planning, transparent communication and on-time delivery.</p>
+    </div>
+
+    <ul class="about-list">
+        <li>
+          <span class="about-list-num">01</span>
+          <div class="about-list-body">
+            <span class="about-list-title" data-i18n="aboutList1Title">Custom modular solutions</span>
+            <p class="about-list-desc" data-i18n="aboutList1Desc">Tailored modular systems designed around your brand's exact dimensions, materials and use case.</p>
+          </div>
+        </li>
+        <li>
+          <span class="about-list-num">02</span>
+          <div class="about-list-body">
+            <span class="about-list-title" data-i18n="aboutList2Title">Flat-pack furniture systems</span>
+            <p class="about-list-desc" data-i18n="aboutList2Desc">Space-efficient, easy-to-ship flat-pack designs engineered for fast, tool-light assembly.</p>
+          </div>
+        </li>
+        <li>
+          <span class="about-list-num">03</span>
+          <div class="about-list-body">
+            <span class="about-list-title" data-i18n="aboutList3Title">Panel furniture production</span>
+            <p class="about-list-desc" data-i18n="aboutList3Desc">High-volume panel manufacturing with consistent quality across every batch.</p>
+          </div>
+        </li>
+      </ul>
+
+    <figure class="about-card">
+      <div class="about-card-row">
+        <span data-i18n="aboutCardFacility">FACILITY / SAMSUN, TR</span>
+        <span data-i18n="aboutCardPhase">PHASE 01</span>
+      </div>
+      <div class="about-card-img">
+        <img src="images/factory-samsun.jpg" alt="İDEMA facility in Samsun, Türkiye">
+      </div>
+      <div class="about-card-row">
+        <span data-i18n="aboutCardArea">6,000 M² · PHASE 1</span>
+        <span data-i18n="aboutCardCapacity">15–23K UNITS / MO</span>
+      </div>
+    </figure>
+
+  </div>
+</section>
+
+<!-- ============ FACTORY ============ -->
+
+<section class="factory" id="factory">
+    <div class="wrap">
+        <div class="factory-heading-block">
+            <p class="eyebrow-dark" data-i18n="factoryEyebrow">FACILITY / SAMSUN, TR</p>
+          
+          </div>
+  
+          <div class="factory-features">
+            <div class="factory-feature">
+              <h3 data-i18n="factoryFeat1Title">CNC cutting technology</h3>
+              <p data-i18n="factoryFeat1Desc">Advanced CNC lines hold panel tolerances consistent across every production run, regardless of order size.</p>
+            </div>
+            <div class="factory-feature">
+              <h3 data-i18n="factoryFeat2Title">Automated production lines</h3>
+              <p data-i18n="factoryFeat2Desc">Dedicated, automated sections move raw panel to finished module with minimal manual handling.</p>
+            </div>
+            <div class="factory-feature">
+              <h3 data-i18n="factoryFeat3Title">In-house engineering</h3>
+              <p data-i18n="factoryFeat3Desc">Our engineering team manages every stage internally — from technical drawing to final assembly spec.</p>
+            </div>
+            <div class="factory-feature">
+              <h3 data-i18n="factoryFeat4Title">Quality control systems</h3>
+              <p data-i18n="factoryFeat4Desc">Professional QC checkpoints ensure consistency, precision and long-term product reliability.</p>
+            </div>
+          </div>
+  
+      <div class="factory-gallery-wrap">
+        <button class="gallery-arrow gallery-prev" id="galleryPrev" aria-label="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+  
+        <div class="factory-gallery" id="factoryGallery">
+          <figure class="gallery-item"><img src="images/factory-1.jpg" alt="İDEMA factory — CNC line"></figure>
+          <figure class="gallery-item"><img src="images/factory-2.jpg" alt="İDEMA factory — production floor"></figure>
+          <figure class="gallery-item"><img src="images/factory-3.jpg" alt="İDEMA factory — panel storage"></figure>
+          <figure class="gallery-item"><img src="images/factory-4.jpg" alt="İDEMA factory — production floor"></figure>
+          <figure class="gallery-item"><img src="images/factory-5.jpg" alt="İDEMA factory — CNC machine"></figure>
+          <figure class="gallery-item"><img src="images/factory-6.jpg" alt="İDEMA factory — production line"></figure>
+        </div>
+  
+        <button class="gallery-arrow gallery-next" id="galleryNext" aria-label="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <img src="" alt="" id="lightboxImg">
+      </div>
+  
+    </div>
+
+  </section>
+
+  <!-- ============ WHY ============ -->
+
+<section class="why" id="why">
+    <div class="wrap">
+  
+      <div class="why-heading-block">
+        <h2 class="why-heading" data-i18n="whyHeading">What partners get from day one</h2>
+      </div>
+  
+      <ul class="why-list">
+        <li class="why-item">
+          <span class="why-num">01</span>
+          <p class="why-text" data-i18n-html="whyItem1"><strong>Flexible production structure</strong> — adapts to your business model, technical needs and market expectations.</p>
+        </li>
+        <li class="why-item">
+          <span class="why-num">02</span>
+          <p class="why-text" data-i18n-html="whyItem2"><strong>Scalable capacity</strong> — 15,000 to 23,000 units a month, for standard collections and custom projects alike.</p>
+        </li>
+        <li class="why-item">
+          <span class="why-num">03</span>
+          <p class="why-text" data-i18n-html="whyItem3"><strong>Transparent communication</strong> — structured planning and on-time delivery, treated as a standing commitment.</p>
+        </li>
+        <li class="why-item">
+          <span class="why-num">04</span>
+          <p class="why-text" data-i18n-html="whyItem4"><strong>End-to-end in-house control</strong> — engineering, cutting, assembly and QC under one roof.</p>
+        </li>
+      </ul>
+  
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT SHOWCASE ============ -->
+
+<section class="products" id="products">
+    <div class="wrap">
+  
+        <div class="products-heading-block">
+          <h2 class="products-heading" data-i18n-html="productsHeading">Crafted <em>Interiors</em>, Delivered at Scale</h2>
+          </div>
+  
+      <div class="products-grid" id="productsGrid">
+        <figure class="product-item"><img src="images/product-1.jpg" alt="İDEMA product 1"></figure>
+        <figure class="product-item"><img src="images/product-2.jpg" alt="İDEMA product 2"></figure>
+        <figure class="product-item"><img src="images/product-3.jpg" alt="İDEMA product 3"></figure>
+        <figure class="product-item"><img src="images/product-4.jpg" alt="İDEMA product 4"></figure>
+        <figure class="product-item"><img src="images/product-5.jpg" alt="İDEMA product 5"></figure>
+        <figure class="product-item"><img src="images/product-6.jpg" alt="İDEMA product 6"></figure>
+        <figure class="product-item"><img src="images/product-7.jpg" alt="İDEMA product 7"></figure>
+        <figure class="product-item"><img src="images/product-8.jpg" alt="İDEMA product 8"></figure>
+        <figure class="product-item"><img src="images/product-9.jpg" alt="İDEMA product 9"></figure>
+      </div>
+  
+    </div>
+  </section>
+
+ <!-- ============ CONTACT ============ -->
+
+<section class="contact" id="contact">
+  <div class="wrap">
+
+    <div class="contact-heading-block">
+      <p class="eyebrow-dark" data-i18n="contactEyebrow">GET IN TOUCH</p>
+      <h2 class="contact-heading" data-i18n="contactHeading">Tell us what you're building — we'll tell you how fast we can make it</h2>
+    </div>
+
+    <form class="contact-grid" id="contactForm" novalidate>
+      <input type="hidden" name="access_key" value="9fc0b350-0c2e-496e-838e-38efcc8fc5e7">
+<input type="hidden" name="subject" value="İDEMA — Yeni İletişim Formu Mesajı">
+
+      <div class="contact-col contact-col--info">
+
+        <div class="contact-field contact-field--static">
+          <span class="contact-label" data-i18n="contactAddressLabel">ADDRESS</span>
+          <p class="contact-value">Toybelen Mah. 1172. Sk. No:49<br>İlkadım / Samsun, Türkiye</p>
+        </div>
+
+        <div class="contact-field">
+          <label class="contact-label" for="contactEmail" data-i18n="contactEmailLabel">EMAIL</label>
+          <input type="email" id="contactEmail" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="contact-field">
+          <label class="contact-label" for="contactPhone" data-i18n="contactPhoneLabel">PHONE</label>
+          <input type="tel" id="contactPhone" name="phone" autocomplete="tel">
+        </div>
+
+        <div class="contact-field contact-field--static">
+          <span class="contact-label" data-i18n="contactCoordsLabel">COORDINATES</span>
+          <p class="contact-value">41°17'41.6"N 36°15'34.8"E</p>
+        </div>
+
+        <div class="contact-social">
+          <a href="https://x.com/" target="_blank" rel="noopener">X</a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">IG</a>
+        </div>
+
+      </div>
+
+      <div class="contact-col contact-col--message">
+
+        <div class="contact-field contact-field--textarea">
+          <label class="contact-label" for="contactMessage" data-i18n="contactMessageLabel">MESSAGE</label>
+          <textarea id="contactMessage" name="message" rows="5" data-i18n-placeholder="contactMessagePlaceholder" placeholder="Tell us about volumes, product type and target market..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-send" id="btnSend" data-i18n="contactSend">SEND MESSAGE</button>
+
+        <p class="contact-status" id="contactStatus" role="status" aria-live="polite"></p>
+
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps?q=41.294889,36.259667&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="İDEMA facility location — Samsun, Türkiye"></iframe>
+        </div>
+
+      </div>
+
+    </form>
+
+  </div>
+</section>
