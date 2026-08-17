@@ -2,7 +2,7 @@
 // İDEMA — header behaviour
 // ===========================================================
 (function () {
-  let currentLang = 'en';
+  let currentLang = 'tr';
   const header = document.getElementById('siteHeader');
   const nav = document.getElementById('mainNav');
   const toggle = document.getElementById('navToggle');
@@ -183,6 +183,8 @@
     langButtons.forEach((btn) => {
       btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
     });
+
+    setLanguage(currentLang);
   }
   
 const heroSlides = document.querySelectorAll('.hero-bg-slide');

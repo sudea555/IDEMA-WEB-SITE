@@ -1,6 +1,4 @@
-/* ===========================================================
-   İDEMA — design tokens
-   =========================================================== */
+
    :root{
     --header-bg:   #262523;
     --header-line: #3A3733;
@@ -43,7 +41,7 @@
     outline-offset:3px;
   }
 
-     /*====================  HEADER ==========================*/
+   
      .site-header{
       position:fixed;
       top:0; left:0; right:0;
@@ -213,12 +211,16 @@
   }
   
   @media (max-width: 560px){
-    .lang-switch{ display:none; }
+    .logo-img{ height:48px; }
+    .header-actions{ gap:14px; }
+    .btn-contact{ padding:10px 14px; font-size:0.72rem; }
+    .lang-switch{ gap:4px; }
+    .lang-btn{ font-size:0.72rem; padding:2px; }
   }
   
   main{ padding-top:var(--header-h); }
 
-  /* HERO */
+
 
   .hero{
     position:relative;
@@ -231,7 +233,9 @@
     isolation:isolate;
     
   }
-  
+
+ 
+
   .hero-bg{
     position:absolute;
     inset:0;
@@ -247,6 +251,7 @@
     filter:brightness(0.55);
     transform:scale(1);
     transition:opacity 0.8s ease, transform 3.5s ease-out;
+    background-color: #c9a86a;
   }
   .hero-bg-slide.is-active{
     opacity:1;
@@ -323,7 +328,6 @@
     margin:0;
   }
 
-  /* ABOUT US */
 
    
   .about{
@@ -463,7 +467,7 @@
   line-height:1.3;
 }
  
-/* facility card */
+
 .about-card{
   margin:0;
   background:#8b8669;
@@ -560,7 +564,7 @@
   color:#3A3629;
 }
 
-/* FACTORY */
+
 
 .factory{
   background:linear-gradient(180deg,
@@ -628,7 +632,6 @@
   .factory-feature{ border-right:none; }
 }
 
-/* gallery */
 
 .factory-gallery-wrap{
   position:relative;
@@ -761,7 +764,7 @@
   .factory-features{ grid-template-columns:1fr; }
 }
 
-/* WHY */
+
 
 .why{
   background:linear-gradient(180deg,
@@ -889,7 +892,7 @@
   }
 }
 
-/* PRODUCT SHOWCASE */
+
 
 .products{
   background:linear-gradient(180deg,
@@ -1002,7 +1005,7 @@
   .products-grid{ grid-template-columns:1fr; }
 }
 
-/* CONTACT */
+
 
 .contact{
   position:relative;
