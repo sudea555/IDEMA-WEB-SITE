@@ -1068,6 +1068,7 @@
   letter-spacing:0.14em;
   text-transform:uppercase;
   color:var(--about-text-soft);
+  
 }
 
 .contact-value{
@@ -1104,6 +1105,7 @@
   display:flex;
   gap:22px;
   padding-top:24px;
+  
 }
 .contact-social a{
   font-family:var(--font-mono);
