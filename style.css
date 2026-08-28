@@ -255,7 +255,7 @@
   }
   .hero-bg-slide.is-active{
     opacity:1;
-    transform:scale(1.08);             /* aktifken yavaşça büyür */
+    transform:scale(1.08);            
   }
   .hero-bg-slide.is-active{ opacity:1; }
   
@@ -366,8 +366,8 @@
   letter-spacing:-0.01em;
   text-transform:none;
   color:var(--about-text);
-  margin:0 0 18px;
-  padding-top:14px;
+  margin:0 0 95px;
+  padding-top:24px;
   position:relative;
 }
 
@@ -541,7 +541,7 @@
   cursor:default;
   display:flex;
   flex-direction:column;
-  justify-content:center;
+  justify-content:flex-start;   
 }
 
 .about-hover-card:hover{
