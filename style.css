@@ -1201,3 +1201,27 @@
     text-align:center;
   }
 }
+
+.motto-line{
+  margin:8px 0 0;
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:1.3rem;
+  color:var(--accent-rust);
+}
+
+.motto-line .motto-desc{
+  font-family:var(--font-body);
+  font-weight:400;
+  font-size:1rem;
+  color:var(--about-text-soft);
+}
+.motto-word{
+  color:var(--accent-rust);
+}
+
+.motto-desc{
+  color:var(--about-text-soft);
+  font-weight:400;
+  font-size:1rem;
+}
