@@ -144,7 +144,7 @@
 
       whyItem1: '<strong>Esnek üretim yapısı</strong> — Projenizde teknik ihtiyaçlara ve müşteri isteklerine uyum sağlar.',
       whyItem2: '<strong>Şeffaf iletişim</strong> — Ürünlerin üretiminin ilk başından montaj sonuna kadar süreç şeffaf bir şekilde devam eder.',
-      whyItem4: '<strong>Satış sonrası hizmetler</strong> —  Proje bitiminden itibaren her an destek ekibi yanınızda',
+      whyItem4: '<strong>Satış sonrası hizmetler</strong> —  Proje bitiminden itibaren her an destek ekibi yanınızda.',
 
       productsHeading: 'Projenize Uyumlu Üretilen <em> Mekanlar</em>',
 
