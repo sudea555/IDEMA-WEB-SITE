@@ -58,7 +58,7 @@
       contactError: 'Please fill in a valid email before sending.',
       heroEyebrow: 'Manufacturing Partner',
       heroTagline: ' Your furniture manufacturing partner for your projects',
-      heroStats: '14 years · 900+ projects · 150,000+ units delivered',
+      heroStats: '15 years · 900+ projects · 150,000+ units delivered',
 
       aboutHeading: 'We are here to bring a professional approach and aesthetic touches to your projects',
       aboutP1: 'Operating in Samsun for 15 years, Idema Mobilya has been the preferred choice for the regions premier projects. With a 4,000 m² factory featuring automation and AI-supported production infrastructure, the company operates at the highest level of manufacturing standards. It provides comprehensive support throughout your project—from inception to completion—leveraging its in-house team of interior architects.',
@@ -117,10 +117,10 @@
       contactError: 'Göndermeden önce geçerli bir e-posta girin.',
       heroEyebrow: 'Üretim Ortağı',
       heroTagline: 'Projelerinizde mobilya üretim ortağınız',
-      heroStats: '14 yıl · 900+ proje · 150.000+ ünite teslim edildi',
+      heroStats: '15 yıl · 900+ proje · 150.000+ ünite teslim edildi',
 
       aboutHeading: 'Projelerinizde profesyonel yaklaşım ve estetik dokunuşlar için buradayız',
-      aboutP1: '15 yıldır Samsun`da faaliyet gösteren İDEMA mobilya bölgenin en iyi projelerinde tercih edilmiştir. 4000m 2 fabrika alanı otomasyon ve yapay zeka destekli üretim alt yapısıyla üretim standartlarında üst düzey noktadadır. Bünyesinde bulunan iç mimarları ile projenizin en başından en sonuna kadar size destek vermektedir.',
+      aboutP1: '15 yıldır Samsun`da faaliyet gösteren İDEMA mobilya bölgenin en iyi projelerinde tercih edilmiştir. 4000 m² fabrika alanı otomasyon ve yapay zeka destekli üretim alt yapısıyla üretim standartlarında üst düzey noktadadır. Bünyesinde bulunan iç mimarları ile projenizin en başından en sonuna kadar size destek vermektedir.',
       aboutP2: "",
       aboutList1Title: 'Projelerinizde özel çözümler',
       aboutList1Desc: 'Markanızın tam ölçülerine, malzemelerine ve kullanım amacına göre tasarlanmış modüler sistemler.',
